@@ -1,4 +1,4 @@
-
+/*
 var google;
 
 function init() {
