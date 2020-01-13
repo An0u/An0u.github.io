@@ -66,12 +66,211 @@ hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  overflow: visible; }
+  overflow: visible;
+  
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  
+}
+.hexag0n_grey h2{
+    margin-top: 33%;
+    text-align: center;
+  margin-bottom: 0.5rem;
+     font-family: 'Arapey';
+  font-style: italic;
+  font-weight: 400;
+}
+.hexag0n_grey #desc{
+    text-align: center;
+    margin: 1em 0 0;
+  font-family: 'ATC Overlook';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1.5;
+  color: turquoise;
+    text-align: center;
+}
+.hexag2n_grey h2{
+    position: relative;
+    top:33%;
+    text-align: center;
+  margin-bottom: 0.5rem;
+     font-family: 'Arapey';
+  font-style: italic;
+  font-weight: 400;
+}
+.hexag2n_grey #desc{
+    position: relative;
+    top: 33%;
+    text-align: center;
+    margin: 1em 0 0;
+  font-family: 'ATC Overlook';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1.5;
+  color: turquoise;
+    text-align: center;
+}
+.hexag3n_grey h2{
+    position: relative;
+    top:33%;
+    text-align: center;
+  margin-bottom: 0.5rem;
+     font-family: 'Arapey';
+  font-style: italic;
+  font-weight: 400;
+}
+.hexag3n_grey #desc{
+    position: relative;
+    top: 33%;
+    text-align: center;
+    margin: 1em 0 0;
+  font-family: 'ATC Overlook';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1.5;
+  color: turquoise;
+    text-align: center;
+}
+//--gallery------
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+.group{
+      display:flex;
+}
+.hexagon:hover{
+/*transform: translate(-70%, -70%) scale(1);*/
+  opacity: 0.0;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.hexagon2:hover{
+  /*transform: translate(-70%, -70%) scale(1);*/
+  opacity: 0.0;
+}
+.hexagon3:hover{
+  /*transform: translate(-70%, -70%) scale(1);*/
+  opacity: 0.0;
+}
 
+.hexag0n_grey, hexagon, hexagon2,hexag2n_grey, hexagon3,hexag3n_grey{
+  padding-bottom: 100px;
+  background-size: cover;
+  margin: 5px auto;
+  height: 400px;
+  width: 400px;  
+  position: relative;
+  margin-top: -90px;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: 50px;
+  float: left;
+  transition: all 0.5s;
+  overflow: hidden;
+  transition-timing-function: ease-in-out;
+    background-image: url(http://127.0.0.1:38855/gallery.html);
+ 
+  
+}
+.hexag0n_grey {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("https://chaplins.co.uk/shop/media/customoptions/options/5312/34508/alcantara_chic-grey_4499.jpg") no-repeat;
+  background-size: cover;
+  margin: 5px auto;
+  position: relative;
+     top: -310px;
+  height: 300px;
+  width: 300px; 
+  transition: 1s;
+  z-index: 1;
+  opacity: 1;
+    
+   
+}
+.hexagon {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("/images/model-1.jpg") no-repeat;
+  background-size: cover;
+  margin: 5px auto;
+  position: relative;
+  height: 300px;
+  width: 300px; 
+    opacity:1;
+  transition: 1s;
+  z-index: 3;
+}
+
+.hexagon2{
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("/images/model-4.jpg") no-repeat;
+  background-size: cover;
+  margin: 5px auto;
+  position: relative;
+  height: 300px;
+  width: 300px; 
+      opacity:1;
+  transition: 1s;
+  z-index: 2
+    
+}
+.hexag2n_grey {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("https://chaplins.co.uk/shop/media/customoptions/options/5312/34508/alcantara_chic-grey_4499.jpg") no-repeat;
+  background-size: cover;
+  margin: 5px auto;
+  position: relative;
+    top: -305px;
+  height: 300px;
+  width: 300px; 
+  transition: 1s;
+  z-index: 1;
+  opacity: 1;
+    
+   
+}
+.hexagon3{
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("/images/model-3.jpg") no-repeat;
+   background-size: cover;
+  margin: 5px auto;
+  position: relative;
+  height: 300px;
+  width: 300px; 
+      opacity:1;
+  transition: 1s;
+  z-index: 2
+      
+ 
+}
+.hexag3n_grey{
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("https://chaplins.co.uk/shop/media/customoptions/options/5312/34508/alcantara_chic-grey_4499.jpg") no-repeat;
+  background-size: cover;
+  margin: 5px auto;
+  position: relative;
+    top: -305px;
+  height: 300px;
+  width: 300px; 
+  transition: 1s;
+  z-index: 1;
+  opacity: 1;
+    
+   
+}
+
+//-------
 p {
   margin-top: 0;
   margin-bottom: 1rem; }

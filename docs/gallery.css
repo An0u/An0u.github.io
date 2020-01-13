@@ -1,0 +1,75 @@
+
+
+* {
+    box-sizing: border-box;
+    background-color: #191a1c;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2; 
+}
+
+h1, .h1 {
+  font-size: 2.5rem; 
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+}
+.subtitle{
+  margin:auto;
+  padding: 30px;
+  font-size: 2.5rem; 
+  color: white;
+  text-align: center;
+  font-size: 1vw;
+  font-style: italic;
+    
+    top: 33%;
+    text-align: center;
+    margin: 1em 0 0;
+  font-family: 'ATC Overlook';
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 1.5;
+  color: turquoise;
+}
+body {
+    line-height: 1;
+    width: 50%;  /* Or whatever */
+  height: 50%; /* Or whatever */
+  margin: auto;  /* Magic! */
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 2%;
+}
+
+.item:nth-child(1){
+  width: 100%;
+}
+.item:nth-child(2) {
+  width: 100%;
+}
+.item:last-child {
+  width: 100%;
+}
