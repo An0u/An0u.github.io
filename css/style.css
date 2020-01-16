@@ -153,6 +153,10 @@ body {
 .ind{
     height: 400px;
 }
+.hexagon a{
+    position: relative;
+    top:-400px;
+}
 .hexagon:hover{
 /*transform: translate(-70%, -70%) scale(1);*/
   opacity: 0.0;
