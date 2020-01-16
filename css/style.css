@@ -148,6 +148,10 @@ body {
 }
 .group{
       display:flex;
+      left: 8%;
+}
+.ind{
+    height: 400px;
 }
 .hexagon:hover{
 /*transform: translate(-70%, -70%) scale(1);*/
@@ -172,15 +176,15 @@ body {
   height: 400px;
   width: 400px;  
   position: relative;
-  margin-top: -90px;
+  margin-top: -60px;
   margin-right: -10px;
   margin-left: -10px;
-  margin-bottom: 50px;
+ 
   float: left;
   transition: all 0.5s;
   overflow: hidden;
   transition-timing-function: ease-in-out;
-    background-image: url(http://127.0.0.1:38855/gallery.html);
+  background-image: url(http://127.0.0.1:38855/gallery.html);
  
   
 }
@@ -189,10 +193,11 @@ body {
   background: url("https://chaplins.co.uk/shop/media/customoptions/options/5312/34508/alcantara_chic-grey_4499.jpg") no-repeat;
   background-size: cover;
   margin: 5px auto;
+    margin-left: 5px;
   position: relative;
-     top: -310px;
-  height: 300px;
-  width: 300px; 
+     top: -410px;
+  height: 400px;
+  width: 400px; 
   transition: 1s;
   z-index: 1;
   opacity: 1;
@@ -201,25 +206,27 @@ body {
 }
 .hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: url("/images/model-1.jpg") no-repeat;
+  background: url("../images/model-1.jpg") no-repeat;
   background-size: cover;
   margin: 5px auto;
   position: relative;
-  height: 300px;
-  width: 300px; 
+  height: 400px;
+  width: 400px; 
     opacity:1;
   transition: 1s;
   z-index: 3;
+        margin-left: 5px;
+
 }
 
 .hexagon2{
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: url("/images/model-4.jpg") no-repeat;
+  background: url("../images/model-4.jpg") no-repeat;
   background-size: cover;
   margin: 5px auto;
   position: relative;
-  height: 300px;
-  width: 300px; 
+  height: 400px;
+  width: 400px; 
       opacity:1;
   transition: 1s;
   z-index: 2
@@ -231,26 +238,30 @@ body {
   background-size: cover;
   margin: 5px auto;
   position: relative;
-    top: -305px;
-  height: 300px;
-  width: 300px; 
+    top: -405px;
+  height: 400px;
+  width: 400px; 
   transition: 1s;
   z-index: 1;
   opacity: 1;
+        margin-left: 5px;
+
     
    
 }
 .hexagon3{
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: url("/images/model-3.jpg") no-repeat;
+  background: url("../images/model-3.jpg") no-repeat;
    background-size: cover;
   margin: 5px auto;
   position: relative;
-  height: 300px;
-  width: 300px; 
+  height: 400px;
+  width: 400px; 
       opacity:1;
   transition: 1s;
-  z-index: 2
+  z-index: 2;
+          margin-left: 5px;
+
       
  
 }
@@ -260,13 +271,14 @@ body {
   background-size: cover;
   margin: 5px auto;
   position: relative;
-    top: -305px;
-  height: 300px;
-  width: 300px; 
+    top: -405px;
+  height: 400px;
+  width: 400px; 
   transition: 1s;
   z-index: 1;
   opacity: 1;
-    
+        margin-left: 5px;
+
    
 }
 
