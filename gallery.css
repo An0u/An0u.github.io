@@ -50,6 +50,7 @@ body {
   height: 50%; /* Or whatever */
   margin: auto;  /* Magic! */
 }
+---buttons---
 
 #x-button{
    position: absolute;
@@ -57,6 +58,12 @@ left: 5%;
 height: 50px;
 width: 50px;
 float: left;
+}
+
+#next {
+    float: left;
+    height: 50px;
+    width: auto;
 }
 
 
