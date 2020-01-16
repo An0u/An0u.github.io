@@ -51,6 +51,14 @@ body {
   margin: auto;  /* Magic! */
 }
 
+#x-button{
+   position: absolute;
+left: 5%;
+height: 50px;
+width: 50px;
+float: left;
+}
+
 
 .container {
   display: flex;
