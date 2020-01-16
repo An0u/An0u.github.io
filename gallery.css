@@ -50,20 +50,37 @@ body {
   height: 50%; /* Or whatever */
   margin: auto;  /* Magic! */
 }
----buttons---
 
-#x-button{
-   position: absolute;
-left: 5%;
-height: 50px;
-width: 50px;
-float: left;
+img.xbutton{
+    position: absolute;
+    left: 20px;
+    height: 40px;
+    width: auto;
 }
 
 #next {
-    float: left;
-    height: 50px;
+    position: absolute;
+    right: 20px;
+    float: right;
+    height: 100%;
     width: auto;
+    margin: 0px;
+}
+#next img{
+    height: 30px;
+    width: auto;
+}
+#back img{
+    height: 30px;
+    width: auto;
+}
+#back{
+     position: absolute;
+    left: 20px;
+    float: left;
+    height: 100%;
+    width: auto;
+    margin: 0px;
 }
 
 
